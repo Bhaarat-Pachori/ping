@@ -21,3 +21,7 @@ PING  google.com ['172.217.10.142'] :  56  data bytes
 64  bytes from  google.com icmp_seq= 5  ttl= 55 time=0.04 seconds
 
 Follow the above usage for different inputs to the ping command.
+
+This implementation has used Raw Sockets. Raw sockets is a way to bypass the Host-to-Host layer. Pricisely, Ping commands runs on Application layer and the ICMP works on Internetworking layer so to bypass the Host-to-Host layer Raw sockets are used. Using the Raw sockets we send and receive ICMP ECHO request and response.
+
+A nice explanation is given at this link about the Ping implementation in python and how it works :+1: [How it works](http://images.globalknowledge.com/wwwimages/whitepaperpdf/WP_Mays_Ping.pdf) using the Raw sockets and ICMP messages.
