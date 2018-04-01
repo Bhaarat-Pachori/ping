@@ -1,13 +1,14 @@
 # ping
 This in an implementation of unix based ping command in Python. To successfully run the code superuser permissions are needed.
 
-See the following for usage of ping.py
-Usage:
-     ping.py google.com        [a normal ping request]
--c:  ping.py -c 5 google.com,  [sends 5 ECHO Request]
--s:  ping.py -s 4 google.com,  [send data of 10+8 bytes, "Minimum length is 0 byte"]
--i:  ping.py -i 3 google.com,  [sends request every 3 seconds]
--t:  ping.py -t 3 google.com,  [times out in 3 seconds] 
+## See the following for usage of ping.py
+
+**Usage:**
+- ping.py google.com        [a normal ping request]
+- c:  ping.py -c 5 google.com,  [sends 5 ECHO Request]
+- s:  ping.py -s 4 google.com,  [send data of 10+8 bytes, "Minimum length is 0 byte"]
+- i:  ping.py -i 3 google.com,  [sends request every 3 seconds]
+- t:  ping.py -t 3 google.com,  [times out in 3 seconds] 
 
 Press Enter to continue
 
